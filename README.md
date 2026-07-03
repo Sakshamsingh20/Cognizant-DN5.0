@@ -15,18 +15,6 @@ All exercises are implemented in **Java** using **Eclipse IDE** and organized we
 
 ---
 
-## 👨‍💻 Candidate Details
-
-| Field | Details |
-|-------|---------|
-| **Name** | Saksham Singh |
-| **GitHub** | Sakshamsingh20 |
-| **Program** | Cognizant Digital Nurture 5.0 |
-| **Stream** | Java FSE — React |
-| **Batch** | Campus Hiring 2027 |
-
----
-
 ## 📁 Repository Structure
 
 ```
@@ -200,7 +188,7 @@ git clone https://github.com/Sakshamsingh20/Cognizant-DN5.0.git
 
 ---
 
-## 📞 Contact
+## 📞 Connect With Me
 
-**Saksham Singh**
-GitHub: [@Sakshamsingh20](https://github.com/Sakshamsingh20)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saksham%20Singh-blue?logo=linkedin)](https://www.linkedin.com/in/saksham-singh-aug/)
+[![GitHub](https://img.shields.io/badge/GitHub-Sakshamsingh20-black?logo=github)](https://github.com/Sakshamsingh20)
