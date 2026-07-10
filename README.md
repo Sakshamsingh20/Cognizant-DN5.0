@@ -21,46 +21,64 @@ All exercises are implemented in **Java** using **Eclipse IDE** and organized we
 COGNIZANT/
 ├── src/
 │   ├── main/java/
-│   │   ├── com/cognizant/                        # Week 1 Exercises
-│   │   │   ├── designpatterns/                   # Design Patterns & Principles
+│   │   ├── com/cognizant/                              # Week 1 Exercises
+│   │   │   ├── designpatterns/                         # Design Patterns & Principles
 │   │   │   │   ├── SingletonPattern.java
 │   │   │   │   └── FactoryMethodPattern.java
 │   │   │   │
-│   │   │   ├── algorithms/                       # Data Structures & Algorithms
+│   │   │   ├── algorithms/                             # Data Structures & Algorithms
 │   │   │   │   ├── EcommerceSearch.java
 │   │   │   │   └── FinancialForecasting.java
 │   │   │   │
-│   │   │   ├── junit/                            # TDD using JUnit5
+│   │   │   ├── junit/                                  # TDD using JUnit5
 │   │   │   │   ├── Calculator.java
 │   │   │   │   ├── StringUtils.java
 │   │   │   │   └── BankAccount.java
 │   │   │   │
-│   │   │   ├── mockito/                          # TDD using Mockito
+│   │   │   ├── mockito/                                # TDD using Mockito
 │   │   │   │   ├── ProductRepository.java
 │   │   │   │   ├── ProductService.java
 │   │   │   │   ├── EmailSender.java
 │   │   │   │   └── NotificationService.java
 │   │   │   │
-│   │   │   └── slf4j/                            # SLF4J Logging
+│   │   │   └── slf4j/                                  # SLF4J Logging
 │   │   │       └── LoggingExample.java
 │   │   │
-│   │   └── com/cognizant/week2/                  # Week 2 Exercises
-│   │       ├── springcore/                       # Spring Core & Maven
-│   │       │   ├── AppConfig.java
-│   │       │   ├── GreetingService.java
-│   │       │   ├── MainApp.java
-│   │       │   ├── Vehicle.java
-│   │       │   ├── VehicleService.java
-│   │       │   ├── DependencyInjectionApp.java
-│   │       │   └── MavenProjectApp.java
-│   │       │
-│   │       └── springdatajpa/                    # Spring Data JPA + Hibernate
-│   │           ├── Student.java
-│   │           ├── StudentRepository.java
-│   │           └── SpringDataJPAApp.java
+│   │   ├── com/cognizant/week2/                        # Week 2 Exercises
+│   │   │   ├── springcore/                             # Spring Core & Maven
+│   │   │   │   ├── AppConfig.java
+│   │   │   │   ├── GreetingService.java
+│   │   │   │   ├── MainApp.java
+│   │   │   │   ├── Vehicle.java
+│   │   │   │   ├── VehicleService.java
+│   │   │   │   ├── DependencyInjectionApp.java
+│   │   │   │   └── MavenProjectApp.java
+│   │   │   │
+│   │   │   └── springdatajpa/                          # Spring Data JPA + Hibernate
+│   │   │       ├── Student.java
+│   │   │       ├── StudentRepository.java
+│   │   │       └── SpringDataJPAApp.java
+│   │   │
+│   │   ├── com/cognizant/week3/                        # Week 3 Exercises
+│   │   │   └── SpringRest/                             # Spring REST using Spring Boot
+│   │   │       ├── SpringRestApp.java
+│   │   │       ├── HelloController.java
+│   │   │       ├── Country.java
+│   │   │       └── CountryController.java
+│   │   │
+│   │   └── com/cognizant/week4/                        # Week 4 Exercises
+│   │       ├── jwt/                                    # JWT Authentication
+│   │       │   └── (coming soon)
+│   │       └── microservices/                          # Microservices
+│   │           ├── accountservice/
+│   │           │   ├── Account.java
+│   │           │   └── AccountController.java
+│   │           └── loanservice/
+│   │               ├── Loan.java
+│   │               └── LoanController.java
 │   │
 │   └── test/java/
-│       └── com/cognizant/                        # Unit Tests
+│       └── com/cognizant/                              # Unit Tests
 │           ├── junit/
 │           │   ├── CalculatorTest.java
 │           │   ├── StringUtilsTest.java
@@ -69,7 +87,7 @@ COGNIZANT/
 │               ├── ProductServiceTest.java
 │               └── NotificationServiceTest.java
 │
-└── pom.xml                                       # Maven Dependencies
+└── pom.xml                                             # Maven Dependencies
 ```
 
 ---
@@ -122,16 +140,37 @@ COGNIZANT/
 
 ---
 
-### 📦 Week 3 — Coming Soon 🔄
+### 📦 Week 3
+
+#### 🌐 Spring REST using Spring Boot
+| Exercise | File | Status |
+|----------|------|--------|
+| Hello World RESTful Web Service | `HelloController.java` | ✅ Done |
+| REST - Country Web Service | `CountryController.java` | ✅ Done |
+| REST - Get Country by Code | `CountryController.java` | ✅ Done |
+
+---
+
+### 📦 Week 4
+
+#### 🔐 JWT Authentication
+| Exercise | File | Status |
+|----------|------|--------|
+| Create Authentication Service returning JWT | `coming soon` | 🔄 In Progress |
+
+#### 🏗️ Microservices with Spring Boot & Spring Cloud
+| Exercise | File | Status |
+|----------|------|--------|
+| Account Microservice | `AccountController.java` | ✅ Done |
+| Loan Microservice | `LoanController.java` | ✅ Done |
+
+---
+
+### 📦 Pending
 
 | Module | Exercise | Status |
 |--------|----------|--------|
-| Spring REST using Spring Boot 3 | Create Spring Web Project | ⬜ Pending |
-| Spring REST using Spring Boot 3 | Hello World RESTful Web Service | ⬜ Pending |
-| Spring REST using Spring Boot 3 | REST - Country Web Service | ⬜ Pending |
-| Spring REST using Spring Boot 3 | REST - Get country by code | ⬜ Pending |
-| Spring REST using Spring Boot 3 | JWT Authentication Service | ⬜ Pending |
-| Microservices with Spring Boot 3 | Account & Loan Microservices | ⬜ Pending |
+| JWT Authentication | Authentication Service | 🔄 In Progress |
 | PL/SQL Programming | Control Structures | ⬜ Pending |
 | PL/SQL Programming | Stored Procedures | ⬜ Pending |
 | React | Hands-on Lab 1-4 | ⬜ Pending |
@@ -175,6 +214,14 @@ git clone https://github.com/Sakshamsingh20/Cognizant-DN5.0.git
 
 5. **Run tests**
    - Right click test class → Run As → JUnit Test
+
+6. **Test REST APIs**
+   - Run `SpringRestApp.java`
+   - Open browser and test:
+     - `http://localhost:8080/api/hello`
+     - `http://localhost:8080/api/countries`
+     - `http://localhost:8080/api/accounts`
+     - `http://localhost:8080/api/loans`
 
 ---
 
